@@ -10,8 +10,8 @@ export const ModalRepo = () => {
     const {state: {openModal}} = useContext(ReposContext)
     console.log(openModal)
     return (
-        <div className='bg-slate-100 w-screen h-screen z-30 flex text-white justify-center items-center'>
-            <div className='w-1/2 bg-slate-900 p-8 rounded-lg'>
+        <div className='bg-white/[.4] w-screen h-screen z-30 flex text-white justify-center items-center fixed top-0 left-0'>
+            <div className='w-1/2 bg-slate-900 p-8 rounded-lg blur-none'>
                 <div className='flex'>
                 <Image src={can} alt='repo profile' width='150' height='150' className='rounded-full' />
                 <div>

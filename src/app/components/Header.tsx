@@ -1,7 +1,7 @@
 export const Header = () => {
     return (
         <div className='bg-slate-900'>
-            <div className='relative w-full md:flex justify-between items-center text-white p-16 max-w-[1400px] mx-auto'>
+            <div className='w-full md:flex justify-between items-center text-white p-16 max-w-[1400px] mx-auto'>
                 <p className='hidden md:block text-4xl lg:text-5xl w-2/3 lg:w-7/12 xl:w-1/2 font-semibold'>
                     <span className='text-slate-500'>A Frontend Engineer</span> passionate about building things on the web
                     </p>

@@ -28,7 +28,7 @@ console.log(openModal)
                         <button className='border rounded-lg px-2 py-1 mr-2 text-xs md:text-base'>NextJs</button>
                         <button className='border rounded-lg px-2 py-1 mr-2 text-xs md:text-base'>TypeScript</button>
                     </div>
-                    <button className='rounded-lg px-2 py-1 mr-2 text-xs md:text-base bg-blue-500' onClick={handleModal}>Learn More</button>
+                    <button className='rounded-lg px-3 py-1 mr-2 text-xs md:text-base bg-blue-500' onClick={handleModal}>Learn More</button>
                 </div>
             </div>
         </div>
